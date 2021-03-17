@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:public": "vue-cli-service build --mode public --dest dist/public",
+    "build:dashboard": "vue-cli-service build --mode dashboard --dest dist/dashboard"
   },
   "dependencies": {
     "core-js": "^3.6.5",
